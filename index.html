@@ -84,6 +84,17 @@ margin:0 8px;
 text-transform:uppercase;
 }
 nav a:hover{color:#9cff00}
+a[href^="mailto:"]:not(.button),
+a[href^="tel:"],
+a[href^="https://wa.me/"]{
+color:#9cff00;
+text-decoration:none;
+}
+a[href^="mailto:"]:not(.button):hover,
+a[href^="tel:"]:hover,
+a[href^="https://wa.me/"]:hover{
+text-decoration:underline;
+}
 section{
 max-width:900px;
 margin:auto;
